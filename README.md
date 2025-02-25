@@ -2,8 +2,7 @@
 BlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライクゲームです。
 従来のテトリスゲームをVR空間でプレイすることが可能であり、コントローラーで直接ミノを掴んだり、動かしたりといったインタラクティブな操作が可能です。
 具体的に以下の機能が実装されています。
-![Uploading BlockVRiseGif.gif…]()
-
+![BlockVRiseGif](https://github.com/user-attachments/assets/5e5246ad-4f44-4c75-9876-21acab235ddf)
 
 ## 🎯 BlockVRise の機能
 - **インタラクティブコントローラー操作**
