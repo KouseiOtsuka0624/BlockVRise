@@ -48,14 +48,14 @@ Meta Questシリーズに直接インストールして動作確認が可能なA
 1. Unity 2021.3 LTS 以上をインストール(本プロジェクトはUnity 2021.3.25f1を使用し作成)
 2. Meta XR SDK や XR Plug-in Management など、MetaQuestアプリ開発に必要なパッケージを導入し、環境構築
    - 詳しい環境構築の仕方はこちらのサイトの「Questアプリをビルドするには」を参考 https://tech.framesynthesis.co.jp/unity/metaquest/
-4. File > Import Package > Custom Package から BlockVRisePackage.unitypackage をインポートし、インポートファイル内のBlockVRiseシーンを開く
-5. OVRCameraRigを設置する。
+3. File > Import Package > Custom Package から BlockVRisePackage.unitypackage をインポートし、インポートファイル内のBlockVRiseシーンを開く
+4. OVRCameraRigを設置する(カメラ位置はお好みで調節してください)。
    - 上記サイトの「vrのカメラ配置の基本」を参考
-6. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorの子にインポートしたフォルダ内のRayObjectを設置
-7. 6で設置したRayObjectをGameManagerオブジェクトにアタッチされているGameManagementScriptコンポーネントのLineRenderとLazerPointerにアタッチする。
-8. 同様のGameManagementScriptコンポーネントのRightControllerにOVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorをアタッチする。
-9. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞LeftControllerAnchorをMinoSponerオブジェクトにアタッチされているSpawnMinoコンポーネントのLeftControllerにアタッチする。
-10. PCと開発者モードに設定したMetaQuestシリーズを接続し、ビルド＆ラン
+5. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorの子にインポートしたフォルダ内のRayObjectを設置
+6. 6で設置したRayObjectをGameManagerオブジェクトにアタッチされているGameManagementScriptコンポーネントのLineRenderとLazerPointerにアタッチする。
+7. 同様のGameManagementScriptコンポーネントのRightControllerにOVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorをアタッチする。
+8. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞LeftControllerAnchorをMinoSponerオブジェクトにアタッチされているSpawnMinoコンポーネントのLeftControllerにアタッチする。
+9. PCと開発者モードに設定したMetaQuestシリーズを接続し、ビルド＆ランを実行
 
 ## 🛠 使用技術
 - Unity 2021.3.25f1
